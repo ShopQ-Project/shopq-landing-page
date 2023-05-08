@@ -1,0 +1,119 @@
+.ColorPriceCard{
+    background: rgba(59, 89, 113, 0.05);
+border-radius: 30px;
+padding:30px ;
+transition: transform .2s; /* Animation */
+cursor: pointer;
+}
+/* .ColorPriceCard:hover {
+    background: rgba(59, 89, 113, 0.05); 
+    transform: scale(calc(1 + 0.01));
+} */
+.PriceCard{
+    border-radius: 30px;
+    background: #FFFFFF;
+    padding:30px ;
+    transition: transform .2s; /* Animation */
+    cursor: pointer;
+}
+/* .PriceCard:hover{
+    background: rgba(59, 89, 113, 0.05);   
+    transform: scale(calc(1 + 0.01));
+    
+} */
+.priceTick{
+    width: 16px;
+}
+.pricelist{
+    font-size: 14px;
+    color: rgba(19, 28, 35, 0.6);
+}
+.TryButtonCenter{
+    background: #3B5971;
+    border-radius: 8px;
+    width: 100%;
+    font-size: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    
+}
+.TryButton{
+    background: #FFFFFF;
+    border: 2px solid #3B5971;
+    border-radius: 8px;
+    font-size: 18px;
+color: #131C23;
+width: 100%;
+padding-top: 8px;
+padding-bottom: 8px;
+}
+.priceHead{
+    text-align: center;
+    font-size: 46px;
+color: #131C23;
+margin-bottom: 5rem;
+}
+.SubHead{
+    color: rgba(19, 28, 35, 0.6);
+    margin-top: 8px;
+}
+.priceNumber{
+    color: #3B5971;
+    font-weight: 600;
+font-size: 25px;
+}
+.typePrice{
+    color: #131C23;
+    font-size: 20px;
+}
+.popularText{
+    color: rgba(19, 28, 35, 0.6);
+}
+.wrapper{
+    margin-top: 10px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .anchorBtn{
+    display: block;
+    /* width: 200px; */
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+    margin-top: 3rem;
+    border-radius: 8px;
+  }
+  
+  .anchorBtn span{
+    position: relative;
+    z-index: 2;
+  }
+  
+  .anchorBtn:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #3B5971;
+    transition: all .35s;
+  }
+  
+  .anchorBtn:hover{
+    color: #fff;
+  }
+  
+  .anchorBtn:hover:after{
+    width: 100%;
+  }

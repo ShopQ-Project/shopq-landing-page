@@ -1,0 +1,28 @@
+.FaqMain{
+    background: #F5F6F8;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+}
+
+.CustomAccording .accordButton button{
+    background: #FFFFFF !important;
+    border-radius: 10px !important;
+}
+.CustomAccording .accordButton{
+    border: none !important;
+    margin-top: 20px !important;
+    border-radius: 8px !important;
+}
+.faqBody{
+    color: #131C23;
+    font-size: 14px;
+    line-height: 24px;
+}
+.CustomAccording .accordButton:not(.collapsed) {
+    color: white !important;
+}
+.FaqHead{
+    color: #131C23;
+    font-size: 46px;
+    text-align: center;
+}

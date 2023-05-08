@@ -1,0 +1,68 @@
+.sectionFour{
+    background: linear-gradient(180deg, rgba(252, 246, 242, 0.8) 0%, rgba(255, 255, 255, 0) 54.69%);
+}
+.manage{
+font-weight: 600;
+font-size: 36px;
+line-height: 54px;
+text-align: center;
+color: #131C23;
+}
+.active{
+background: #FFFFFF;
+box-shadow: -8px 8px 30px rgba(19, 28, 35, 0.1);
+border-radius: 8px;
+height: 50px;
+display: flex;
+align-items: center;
+margin-bottom: 0px;
+justify-content: center;
+margin-top: 20px;
+cursor: pointer;
+
+}
+.active h4{
+    font-size: 18px;
+}
+.inactive h4{
+    font-size: 18px;
+}
+.inactive{
+background: rgba(59, 89, 113, 0.08);
+/* box-shadow: -6px 6px 11px rgb(168 172 175 / 10%); */
+border-radius: 8px;
+height: 50px;
+display: flex;
+align-items: center;
+margin-bottom: 0px;
+margin-top: 20px;
+justify-content: center;
+cursor: pointer;
+}
+.activeContent{
+    margin-top: 20px;
+color: rgba(19, 28, 35, 0.8);
+line-height: 27px;
+text-align: justify;
+}
+.activeContent h4{
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 500;
+}
+.tabOneImage{
+    width: 100%;
+/* height: 264px; */
+}
+.tabTwoImage{
+    width: 62%;
+}
+.tabThreeImage{
+    width: 70%;
+}
+.tabFourImage{
+    width: 55%;
+}
+.tabFiveImage{
+    width: 55%;
+}

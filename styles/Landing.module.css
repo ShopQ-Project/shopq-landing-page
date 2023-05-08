@@ -1,0 +1,167 @@
+.BrandColor {
+    color: black;
+}
+
+.NavBorder {
+    border-bottom: 1px solid rgba(19, 28, 35, 0.1);
+}
+
+.homeText {
+    color: #131C23 !important;
+    padding-right: 2rem !important;
+    font-weight: 500;
+}
+.homeText:focus{
+   color: #131C23 !important;
+}
+.homeText:hover {
+    color: #131C23 !important;
+}
+
+.buttonStyle {
+    color: #3B5971;
+    border: 1px solid #3B5971;
+    border-radius: 8px;
+    height: 38px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.buttonStyle2 {
+    background: #3B5971 !important;
+    border-radius: 8px !important;
+    /* width: 24% !important; */
+    padding-top: 12px;
+    padding-bottom: 12px;
+    /* font-weight: 500;
+    font-size: 18px; */
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.buttonStyle:hover {
+    background-color: white !important;
+    color: #3B5971 !important;
+}
+
+.NavIcon {
+    color: black;
+}
+
+.EverythingText {
+    font-weight: 600;
+    font-size: 49px;
+    line-height: 74px;
+    color: #131C23;
+}
+
+.paraText {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(19, 28, 35, 0.6);
+}
+.section2{
+    font-weight: 600;
+font-size: 49px;
+line-height: 74px;
+text-align: center;
+display: flex;
+justify-content: center;
+margin-top: 45px;
+}
+.manageSection{
+    width: 635px;
+height: 148px;
+margin-bottom: 10rem;
+}
+.storeImagediv{
+    height: 420px;
+    background: rgba(59, 89, 113, 0.05);
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.storeImage{
+    position: absolute;
+    /* height: 646.8px; */
+    width: 76%;
+    bottom: 0px;
+}
+/* @media (max-width: 1292px) {
+    .storeImage{
+
+    }
+} */
+.section3Head{
+    font-weight: 600;
+font-size: 39px;
+line-height: 54px;
+color: #131C23;
+}
+.ThirdContainer{
+    margin-top: 5rem;
+}
+.trustedText{
+    font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+color: rgba(19, 28, 35, 0.6);
+padding-left: 10px;
+}
+.trustedHeader{
+    margin-top: 20px;
+}
+.section3Image{
+    width:100%;
+/* height: 508.29px; */
+}
+/* @media (min-width: 320px) {
+    .storeImage{
+        position: absolute;
+        top: 0;
+    }
+    .storeImagediv{
+        height: 188px;
+    }
+} */
+@media (min-width: 346px) and (max-width:506px){
+    .storeImagediv{
+        height: 292px;
+    }
+}
+@media (min-width: 507px) and (max-width:600px){
+    .storeImagediv{
+        height: 360px;
+    }
+}
+@media (min-width: 600px) and (max-width:700px){
+    .storeImagediv{
+        height: 450px;
+    }
+}
+@media (min-width: 700px) and (max-width:800px){
+    .storeImagediv{
+        height: 500px;
+    }
+}
+@media (min-width: 800px) and (max-width:900px){
+    .storeImagediv{
+        height: 550px;
+    }
+
+    
+}
+@media (min-width: 900px) and (max-width:1000px){
+    .storeImagediv{
+        height: 600px;
+    }
+  
+}
+@media (min-width: 1000px) and (max-width:1100px){
+    .storeImagediv{
+        height: 650px;
+    }
+
+
+}

@@ -1,0 +1,104 @@
+.footerMain{
+    background: #3B5971;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.footerText{
+    color: white;
+    width: 20%;
+    font-family: roboto;
+}
+.footerText h6{
+    font-size: 14px;
+    font-weight: 100 !important;
+    cursor: pointer;
+    margin-bottom: 19px;
+    margin-top: 19px;
+}
+.subFooter{
+    background-color: #2C4E69;
+}
+.copyRight{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+color: #FFFFFF;
+text-align: center;
+padding-top: 18px;
+padding-bottom: 18px;
+opacity: 0.4;
+}
+/* .footerText h5{
+    cursor: pointer;
+
+} */
+.emailInput{
+    background: #FFFFFF;
+border-radius:8px;
+border: none;
+height: 40px;
+color: black;
+padding-left: 5px;
+}
+.joinButton{
+    background: #4D6F8A;
+border-radius: 10px;
+color: #FFFFFF;
+height: 40px;
+padding-left: 16px;
+padding-right: 16px;
+margin-left: 5px;
+border: none;
+}
+.Div1{
+    width: 20%;
+}
+@media (max-width: 1260px) {
+    .emailInput{
+        width: 100%;
+    }
+ .inputEmail{
+    display: grid !important;
+    justify-items: center;
+
+ }
+ .inputEmail button {
+    margin-top: 8px;
+    margin-left: 0px;
+    width: 100px;
+ } 
+}
+@media (max-width: 992px) {
+.containerMain{
+    max-width: 100%;
+}
+}
+@media (max-width: 930px) {
+    .containerMain footer div:first-child{
+        display: grid !important;
+        justify-items: center;
+    }
+    .Div1 .icons{
+        display: flex;
+    }
+    .footerText{
+        margin-top: 16px;
+        display: grid;
+        justify-items: center;
+    }
+    .footerText h5{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .footerText h6{
+        margin-bottom: 18px;
+    }
+    .footerText{
+        width: fit-content;
+    }
+    .Div1{
+        width: fit-content;
+    }
+}
