@@ -1,0 +1,1 @@
+# shopq-landing-page
