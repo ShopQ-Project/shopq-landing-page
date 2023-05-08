@@ -31,7 +31,7 @@ function MyVerticallyCenteredModal(props) {
             height: "550px",
           }}
           //   styles={{ minHeight: "400px" }}
-          url="https://calendly.com/vishalkumar-p-s-applogiq"
+          url="https://calendly.com/shopq"          
         />
       </Modal.Body>
       {/* <Modal.Footer>
